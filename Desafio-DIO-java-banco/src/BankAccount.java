@@ -33,6 +33,10 @@ public abstract class  BankAccount implements IAccount {
 		destinationAccount.cashDeposit(value);
 	} ;
 	
+	public void printExtract() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 	public Double getBalance() {
@@ -53,6 +57,9 @@ public abstract class  BankAccount implements IAccount {
 		System.out.println(String.format("Numero:%d", this.number));
 		System.out.println(String.format("Saldo:%.2f", this.balance));
 	}
+
+
+
 
 	
 	

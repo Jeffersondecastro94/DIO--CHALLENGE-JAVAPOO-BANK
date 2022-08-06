@@ -6,5 +6,6 @@ public interface IAccount {
  void cashDeposit(double value) ;
 
  void transferMoney(double value,BankAccount destinationAccount) ;
-	
+
+ void printExtract();
 }
